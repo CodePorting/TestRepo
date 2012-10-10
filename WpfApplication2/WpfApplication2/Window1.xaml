@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfApplication2.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:src="clr-namespace:WpfApplication2"
+    Title="Window1" Height="503" Width="800">
+    <!--xmlns:myControl="clr-namespace:BurningControls;assembly=BurningControls"-->
+    <Grid>
+        <Button Content="CD" Height="30" VerticalAlignment="Top" HorizontalAlignment="Left" Width="60" Margin="198,136,0,0" Click="Button_Click">
+            
+        </Button>
+        <src:UserControl1 
+            x:Name="userControlProgress" 
+            Margin="91,58,157,0" 
+            Height="52" 
+            VerticalAlignment="Top" />
+        <Button Content="DVD" Height="30" HorizontalAlignment="Left" Margin="279,136,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_2" />
+        <Button Content="1" Height="30" Margin="0,136,304,0" VerticalAlignment="Top" Click="Button_Click_1" HorizontalAlignment="Right" Width="60" />
+        <Button Content="2" Height="30" HorizontalAlignment="Right" Margin="0,136,225,0" VerticalAlignment="Top" Width="60" Click="Button_Click_3" />
+        <Button Content="3" Height="30" HorizontalAlignment="Right" Margin="0,136,140,0" VerticalAlignment="Top" Width="60" Click="Button_Click_4" />
+        <Button Content="Timeline" Height="30" HorizontalAlignment="Left" Margin="91,136,0,0" VerticalAlignment="Top" Width="98"/>
+        <Button Height="30" HorizontalAlignment="Left" Margin="91,178,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_5">0</Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="166,178,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_6">100</Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="241,178,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_7">200</Button>
+        <Button Height="30" HorizontalAlignment="Left" Margin="317,178,0,0" VerticalAlignment="Top" Width="60" Click="Button_Click_8">300</Button>
+        <Button Height="30" HorizontalAlignment="Right" Margin="0,178,324,0" VerticalAlignment="Top" Width="60" Click="Button_Click_9">400</Button>
+        <Button Height="30" HorizontalAlignment="Right" Margin="0,178,251,0" VerticalAlignment="Top" Width="60" Click="Button_Click_10">500</Button>
+        <Button Height="30" HorizontalAlignment="Right" Margin="0,178,178,0" VerticalAlignment="Top" Width="60" Click="Button_Click_11">600</Button>
+        <Button Height="30" HorizontalAlignment="Right" Margin="0,178,106,0" VerticalAlignment="Top" Width="60" Click="Button_Click_12">700</Button>
+    </Grid>
+        
+        
+        <!--<ProgressBar Height="10" Margin="31,0,33,90" Name="progressBar1" VerticalAlignment="Bottom" />-->
+    
+</Window>
