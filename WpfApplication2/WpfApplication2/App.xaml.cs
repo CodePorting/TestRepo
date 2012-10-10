@@ -8,7 +8,7 @@ using System.Windows;
 namespace WpfApplication2
 {
     /// <summary>
-    /// Interaction logic for App.xaml
+    /// Interaction logic for App.xaml or not.
     /// </summary>
     public partial class App : Application
     {
