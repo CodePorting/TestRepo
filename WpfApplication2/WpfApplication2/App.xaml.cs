@@ -12,5 +12,6 @@ namespace WpfApplication2
     /// </summary>
     public partial class App : Application
     {
+		int iTestVariable;
     }
 }
